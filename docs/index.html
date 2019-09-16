@@ -10,7 +10,10 @@
 </header>
 <main>
     <figure>
-        <img src="images/animation.gif" alt="Image aniamtion from conference" width="90%">
+        <!-- <img src="images/animation.gif" alt="Image aniamtion from conference" width="90%"> -->
+        <video src="resources/animation.mp4" autoplay width="90%" muted>
+
+        </video>
         <figcaption>Images from previous edtion of conference</figcaption>
     </figure>
     <h2>The conference in images</h2>
@@ -31,7 +34,9 @@
     <audio src="resources/welcome.mp3" controls preload="metadata" width="100%" height="100"></audio>
 
     <h2>About Petra</h2>
-    <video src="resources/movie.mp4" controls muted width="100%" poster="images/event3-1x.jpg">
+    <video controls muted width="100%" poster="images/event3-1x.jpg">
+        <source src="resources/movie.webp" type="video/webm">
+        <source src="resources/movie.mp4" type="video/mp4">
 
     </video>
     <h2>Schedule</h2>
