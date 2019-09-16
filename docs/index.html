@@ -11,7 +11,7 @@
 <main>
     <figure>
         <!-- <img src="images/animation.gif" alt="Image aniamtion from conference" width="90%"> -->
-        <video src="resources/animation.mp4" autoplay width="90%" muted>
+        <video src="resources/animation.mp4" autoplay width="90%" muted playsinline webkit-playsinline loop>
 
         </video>
         <figcaption>Images from previous edtion of conference</figcaption>
@@ -41,6 +41,47 @@
     </video>
     <h2>Schedule</h2>
 
+    <table>
+        <caption>Conference Schedule by Room</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Conference Name</th>
+                <th>Room Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9am</td>
+                <td>Keynote</td>
+                <td>Indiana Jones</td>
+            </tr>
+            <tr>
+                <td>12pm</td>
+                <td>Lunch</td>
+                <td>Restaurant</td>
+            </tr>
+            <tr>
+                <td>2pm</td>
+                <td>CSS Training</td>
+                <td>Indian Jones</td>
+            </tr>
+            <tr>
+                <td rowspan="2">4pm</td>
+                <td rowspan="2">JavaScript Training</td>
+                <td>Indian Jones</td>
+            </tr>
+            <tr>
+                <td>Hsrrison Ford</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">9pm</td>
+                <td>End of the conference If you have.</td>
+            </tr>
+        </tfoot>
+    </table>
 </main>
 
 <footer>
